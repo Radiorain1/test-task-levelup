@@ -48,15 +48,6 @@
 }
 
 @media (max-width: 768px) {
-  .flex-column-lg {
-    flex-direction: column;
-    row-gap: 80px;
-  }
-
-  .gap-lg {
-    gap: 40px;
-  }
-
   .main-img {
     padding-left: 0;
     width: 150px;
