@@ -1,0 +1,50 @@
+h1 {
+  font-size: 140px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .text-center-md {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 70px;
+  }
+}

@@ -1,0 +1,173 @@
+.form-section {
+  padding: 100px 0;
+  background-image: linear-gradient(45deg, #1a237e, #29b6f6);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+
+.form-img {
+  width: auto;
+  height: 200px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+.form-img > img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+.form-title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-price-title {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-price {
+  font-size: 40px;
+}
+
+.form-price-old {
+  text-decoration: line-through;
+  font-size: 25px;
+  line-height: 46px;
+}
+
+.form-label {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 270px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.form-control:focus {
+  outline: none;
+}
+.form-button {
+  width: 270px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-container .hint::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container .hint {
+  position: absolute;
+  top: -20px;
+  right: 30px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #555;
+  color: #fff;
+  display: none;
+}
+
+.input-container input:focus + .hint {
+  display: block;
+}
+/* form */
+
+/* timer */
+.simple-timer {
+  display: flex;
+}
+
+.simple-timer-text {
+  color: #fff;
+  font-size: 14px;
+}
+
+.simple-timer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.simple-timer-divider {
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  padding: 0 8px;
+}
+
+.simple-timer-hours,
+.simple-timer-minutes,
+.simple-timer-seconds {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+/* timer */
+
+.form-price-new {
+  transform: scale(1.2);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.75);
+    color: red;
+  }
+
+  70% {
+    transform: scale(1.2);
+    color: yellow;
+  }
+
+  100% {
+    transform: scale(0.75);
+    color: red;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-img {
+    padding-left: 0;
+    margin-bottom: 40px;
+  }
+}

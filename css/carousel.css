@@ -1,0 +1,27 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: none;
+}
+
+.carousel-slide.active {
+  display: block;
+}
+
+.carousel-controls {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-prev,
+.carousel-next {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
